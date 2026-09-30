@@ -1,0 +1,19 @@
+<section class="page-intro page-width">
+  <p class="eyebrow">The community gallery</p>
+  <h1>A good reference.<br><span>A useful starting point.</span></h1>
+  <p>Scientific figures with code, data provenance, and design notes. Learn what makes a reference effective, then adapt it to your own question.</p>
+  <div class="intro-actions"><a class="button primary" href="$issue_url">Submit a figure ↗</a><a class="text-link" href="#how-to-contribute">How contributions work ↓</a></div>
+</section>
+<section class="gallery-section page-width" aria-label="Figure collection">
+  <div class="gallery-controls">
+    <div class="filter-group" role="group" aria-label="Filter by figure category"><button type="button" class="filter active" data-filter="All" aria-pressed="true">All figures</button><button type="button" class="filter" data-filter="Datasets" aria-pressed="false">Datasets</button><button type="button" class="filter" data-filter="Results" aria-pressed="false">Results</button></div>
+    <label class="search-label"><span class="visually-hidden">Search figures</span><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8" cy="8" r="5.5"/><path d="m12 12 5 5"/></svg><input id="gallery-search" type="search" placeholder="Search a paper or design idea…" autocomplete="off"></label>
+  </div>
+  <p class="collection-meta"><span id="result-count" aria-live="polite">4 examples</span> <span>·</span> Tutorial examples to start the collection</p>
+  <div class="gallery-grid">$cards</div>
+  <div id="gallery-empty" class="empty-state" hidden><h2>No matching figures</h2><p>Try another search or clear the filters.</p><button type="button" class="button secondary" id="clear-filters">Show all figures</button></div>
+</section>
+<section class="contribution-section page-width" id="how-to-contribute">
+  <div><p class="eyebrow">Grow the collection</p><h2>Share a reference<br>and what you made.</h2><p>The gallery grows through reviewed GitHub Issues and pull requests. Original authors are welcome to share their own plotting code.</p><a class="button primary" href="$issue_url">Open a submission form ↗</a></div>
+  <ol class="contribution-steps"><li><span>01</span><div><h3>Identify the reference</h3><p>Include the paper, DOI or link, figure number, and creator attribution.</p></div></li><li><span>02</span><div><h3>Make it reproducible</h3><p>Share your output, code, dependencies, and data. Label estimates and explain any differences.</p></div></li><li><span>03</span><div><h3>Explain the design lesson</h3><p>Tell us what works, what you adapted, and what another researcher can learn. Maintainers review entries before publishing.</p></div></li></ol>
+</section>

@@ -1,0 +1,95 @@
+name: Submit a scientific figure
+description: Share a useful reference figure together with a reproduction or adaptation and code.
+title: "[Figure] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Help build Figures with Code. Share a reference, your output, and enough information to understand and rerun your work. Maintainers review submissions before adding them to the gallery. You can attach images directly to the text fields below.
+  - type: input
+    id: paper
+    attributes:
+      label: Paper title and citation
+      placeholder: Authors, title, venue, year
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Paper link or DOI
+      placeholder: https://doi.org/...
+    validations:
+      required: true
+  - type: input
+    id: figure
+    attributes:
+      label: Figure number and panel
+      placeholder: Figure 2b
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Figure category
+      options:
+        - Dataset overview
+        - Results
+        - Method diagram or pipeline
+        - Other scientific figure
+    validations:
+      required: true
+  - type: dropdown
+    id: relationship
+    attributes:
+      label: Relationship to the original
+      options:
+        - Original author sharing figure code
+        - Numerical reproduction using source data
+        - Visual reconstruction using approximate data
+        - Design adaptation using different data
+    validations:
+      required: true
+  - type: textarea
+    id: images
+    attributes:
+      label: Reference figure and your output
+      description: Attach or link both images. Identify which is the reference and which is your output.
+    validations:
+      required: true
+  - type: textarea
+    id: code
+    attributes:
+      label: Code and run instructions
+      description: Link the script or repository, list dependencies, and provide the command to reproduce the output. Include an editable source for diagrams.
+    validations:
+      required: true
+  - type: textarea
+    id: data
+    attributes:
+      label: Data source and numerical fidelity
+      description: Link source data or a clearly labeled example dataset. Explain digitization, estimates, aggregation, and uncertainty. If this is a method diagram, cite the method text used to verify it.
+    validations:
+      required: true
+  - type: textarea
+    id: lesson
+    attributes:
+      label: What makes this reference useful?
+      description: Explain the design choices worth learning, what you changed, and any remaining differences or limitations.
+    validations:
+      required: true
+  - type: textarea
+    id: attribution
+    attributes:
+      label: Attribution, authorship, and reuse information
+      description: Credit the figure creators and code authors. Include licenses or reuse terms when available. If you are an original author, state your role and link your author profile or project page.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Submission checks
+      options:
+        - label: I distinguish original material from my adaptation or reconstruction and disclose approximate data.
+          required: true
+        - label: I have included code or an editable source and instructions for reproducing my output.
+          required: true

@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="$description">
+  <meta name="theme-color" content="#173f48">
+  <title>$title · Figures with Code</title>
+  <link rel="icon" href="${prefix}favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="${prefix}styles.css">
+  <script src="${prefix}site.js" defer></script>
+</head>
+<body class="$page_class">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="${prefix}index.html" aria-label="Figures with Code home">
+        <svg class="brand-mark" viewBox="0 0 36 36" aria-hidden="true"><path d="M7 6H3v24h4M29 6h4v24h-4"/><path d="M11 27V18m7 9V9m7 18V14"/></svg>
+        <span>Figures <em>with</em> Code</span>
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="${prefix}tutorial/" $tutorial_current>Tutorial</a>
+        <a href="${prefix}gallery/" $gallery_current>Gallery</a>
+        <a class="nav-contribute" href="$issue_url">Submit a figure <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">$content</main>
+  <footer class="site-footer">
+    <div><a class="footer-brand" href="${prefix}index.html">Figures with Code</a><p>Vibe Coding in Medical Imaging · MICCAI 2026</p></div>
+    <div class="footer-links"><a href="$repo_url">GitHub repository ↗</a><a href="$issue_url">Contribute a figure ↗</a></div>
+    <p class="attribution">Reference figures belong to their respective creators. See each example for attribution and numerical fidelity.</p>
+  </footer>
+  $lightbox
+</body>
+</html>

@@ -1,0 +1,22 @@
+# Local Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# macOS metadata
+.DS_Store
+._*
+
+# Local credentials
+.env
+.env.*
+!.env.example
+
+# Generated website and example outputs
+_site/
+output/

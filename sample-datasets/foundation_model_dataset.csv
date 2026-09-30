@@ -1,0 +1,63 @@
+task,modality,dataset,approx_count,angle,tip_radius
+Diagnosis,X-Ray,SIIM-ACR,1300,4.15,231
+Diagnosis,X-Ray,Covid-CXR2,4800,8.6,255
+Diagnosis,X-Ray,NLM-TB,160,13.1,193
+Diagnosis,X-Ray,MedFMC (Chest),340,17.65,207
+Diagnosis,X-Ray,VinDr-PCXR,2100,22.15,240
+Diagnosis,X-Ray,VinDr-CXR,3300,26.65,248
+Diagnosis,X-Ray,RSNA,1900,31.15,238
+Diagnosis,X-Ray,VinDr-SpineXR,2500,35.65,243
+Diagnosis,X-Ray,NIH ChestX-ray14,39000,40.2,293
+Diagnosis,X-Ray,CheXpert,49000,44.65,297
+Diagnosis,Fundus,RFMiD2,150,49.15,192
+Diagnosis,Fundus,DRD,90000,53.7,308
+Diagnosis,Fundus,Fundus JSIEC,170,58.2,194
+Diagnosis,Fundus,ODIR,2000,62.75,239
+Diagnosis,Pathology,LC25000 (Colon),2400,67.3,242
+Diagnosis,Pathology,LC25000 (Lung),3100,71.8,247
+Diagnosis,Pathology,MedFMC (Colon),1800,76.35,237
+Diagnosis,Pathology,PCam200,30000,80.9,288
+Diagnosis,Endoscopy,MedFMC (Endo),260,85.45,202
+Diagnosis,Endoscopy,WCE,930,90.0,225
+Diagnosis,Endoscopy,HyperKvasir,2400,94.55,242
+Diagnosis,Endoscopy,Kvasir,2000,99.05,239
+Diagnosis,Mammography,VinDr-Mammo,4100,103.55,252
+Diagnosis,Mammography,DDSM,27000,108.15,286
+Diagnosis,Mammography,Breast Cancer,250,112.7,201
+Diagnosis,Dermatology,HAM10000,2000,117.25,239
+Diagnosis,Dermatology,PAD-UFES-20,340,121.8,207
+Diagnosis,Ultrasound,BUSBRA,280,126.4,203
+Diagnosis,Ultrasound,UBIBC,930,130.95,225
+Diagnosis,Ultrasound,BUID,140,135.45,191
+Diagnosis,Ultrasound,HMC-QU,2500,140.05,243
+Diagnosis,OCT,OCTMNIST,1700,144.55,236
+Diagnosis,OCT,Retinal OCT,2800,149.15,245
+Diagnosis,MRI,Breast Tumor MRI,1900,153.7,238
+Diagnosis,MRI,Brain Tumor MRI,1700,158.25,236
+Diagnosis,CT,Brain Tumor CT,1300,162.8,231
+Diagnosis,CT,COVIDxCT,46000,167.4,296
+Retrieval,Mixture,PMC-9k,61000,185.3,301
+Retrieval,Pathology,Quilt-1M,80000,189.8,306
+MRG,X-Ray,MIMIC-CXR,85000,207.75,307
+MRG,X-Ray,IU X-Ray,4100,212.3,252
+VQA,Radiology,VQA-RAD,5100,230.1,256
+VQA,Radiology,SLAKE,90000,234.7,308
+WSI Analysis,Pathology,BRACS-3,530,252.5,215
+WSI Analysis,Pathology,BRACS-7,530,257.0,215
+WSI Analysis,Pathology,BRCA,90000,261.45,308
+WSI Analysis,Pathology,NSCLC,80000,265.95,306
+WSI Analysis,Pathology,Camelyon,31000,270.35,289
+WSI Analysis,Pathology,LUAD,8900,274.95,266
+WSI Analysis,Pathology,LUSC,8400,279.45,265
+Explainable AI,Dermatology,Derm7pt,2400,297.15,242
+Explainable AI,Dermatology,SkinCon,1800,301.65,237
+Explainable AI,Pathology,WBCAttr,95000,306.15,309
+Explainable AI,Pathology,MedFMC (Colon),39000,310.65,293
+Explainable AI,Ultrasound,BrEaST,100,315.15,185
+Explainable AI,Ultrasound,UBIBC,15000,319.55,276
+Explainable AI,CT,LUNA16,830,324.05,223
+Explainable AI,CT,NLM-TB,780,328.6,222
+Explainable AI,X-Ray,VinDr-PCXR,37000,333.05,292
+Explainable AI,X-Ray,VinDr-CXR,12000,337.5,271
+Explainable AI,X-Ray,RSNA,37000,342.0,292
+Explainable AI,Mammography,CBIS-DDSM,1700,346.45,236
